@@ -1,3 +1,70 @@
+--Sample data
+
+INSERT INTO Categories (CategoryName, Description) VALUES
+('Electronics', 'Phones, laptops and gadgets'),
+('Accessories', 'Computer and mobile accessories'),
+('Home Appliances', 'Kitchen and home appliances'),
+('Stationery', 'Office and school supplies'),
+('Furniture', 'Home and office furniture');
+
+INSERT INTO Suppliers (SupplierName, Phone, City, Country) VALUES
+('TechSource India', '9810011111', 'Delhi', 'India'),
+('Gadget Hub', '9820022222', 'Mumbai', 'India'),
+('HomeEase Traders', '9830033333', 'Pune', 'India'),
+('PaperWorld Supplies', '9840044444', 'Chennai', 'India'),
+('UrbanWood Furniture', '9850055555', 'Jaipur', 'India');
+
+INSERT INTO Employees (EmployeeName, JobTitle, HireDate) VALUES
+('Aarti Kapoor', 'Store Manager', '2020-03-15'),
+('Rajesh Khanna', 'Sales Executive', '2021-06-01'),
+('Sunita Rao', 'Sales Executive', '2021-09-20'),
+('Vivek Anand', 'Cashier', '2022-01-10'),
+('Nisha Thakur', 'Sales Associate', '2023-04-05');
+
+INSERT INTO Customers (CustomerName, Email, City, Country) VALUES
+('Rahul Sharma', 'rahul.sharma@gmail.com', 'Delhi', 'India'),
+('Priya Singh', 'priya.singh@gmail.com', 'Mumbai', 'India'),
+('Amit Kumar', 'amit.kumar@gmail.com', 'Patna', 'India'),
+('Neha Gupta', 'neha.gupta@gmail.com', 'Jaipur', 'India'),
+('Vikram Rao', 'vikram.rao@gmail.com', 'Hyderabad', 'India'),
+('Sneha Iyer', 'sneha.iyer@gmail.com', 'Chennai', 'India'),
+('Arjun Mehta', 'arjun.mehta@gmail.com', 'Ahmedabad', 'India'),
+('Kavita Joshi', 'kavita.joshi@gmail.com', 'Pune', 'India'),
+('Rohit Verma', 'rohit.verma@gmail.com', 'Lucknow', 'India'),
+('Anjali Nair', 'anjali.nair@gmail.com', 'Kochi', 'India'),
+('Sanjay Patel', 'sanjay.patel@gmail.com', 'Surat', 'India'),
+('Pooja Reddy', 'pooja.reddy@gmail.com', 'Bengaluru', 'India'),
+('Manish Tiwari', 'manish.tiwari@gmail.com', 'Bhopal', 'India'),
+('Divya Menon', 'divya.menon@gmail.com', 'Thiruvananthapuram', 'India'),
+('Karan Malhotra', 'karan.malhotra@gmail.com', 'Chandigarh', 'India'),
+('Ritu Agarwal', 'ritu.agarwal@gmail.com', 'Kolkata', 'India'),
+('Deepak Yadav', 'deepak.yadav@gmail.com', 'Indore', 'India'),
+('Meera Das', 'meera.das@gmail.com', 'Guwahati', 'India'),
+('Suresh Pillai', 'suresh.pillai@gmail.com', 'Coimbatore', 'India'),
+('Ananya Bose', 'ananya.bose@gmail.com', 'Kolkata', 'India');
+
+INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity) VALUES
+('Laptop', 1, 1, 65000, 15),
+('Smartphone', 1, 2, 25000, 40),
+('Tablet', 1, 1, 18000, 25),
+('Bluetooth Speaker', 1, 2, 2500, 60),
+('Smart Watch', 1, 2, 6000, 30),
+('Keyboard', 2, 1, 1200, 80),
+('Mouse', 2, 1, 800, 100),
+('USB Cable', 2, 2, 250, 200),
+('Laptop Bag', 2, 2, 1500, 50),
+('Headphones', 2, 2, 2000, 70),
+('Mixer Grinder', 3, 3, 3500, 35),
+('Microwave Oven', 3, 3, 9500, 20),
+('Electric Kettle', 3, 3, 1100, 55),
+('Iron Box', 3, 3, 900, 45),
+('Notebook Pack', 4, 4, 300, 150),
+('Gel Pen Set', 4, 4, 150, 200),
+('Desk Organizer', 4, 4, 450, 60),
+('Office Chair', 5, 5, 7500, 18),
+('Study Table', 5, 5, 6500, 12),
+('Bookshelf', 5, 5, 8200, 10);
+
 INSERT INTO Orders (CustomerID, EmployeeID, OrderDate) VALUES
 (1, 2 , '2026-07-05'),
 (2, 3, '2026-07-12'),
