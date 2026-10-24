@@ -30,3 +30,6 @@ Seven related tables: Categories, Suppliers, Customers, Employees, Products, Ord
 
 ## Outcome
 A connected relational database and a reusable set of reporting queries, ready for subqueries, views and window functions in Task 3.
+
+## Visuals
+ER diagram, join types comparison, schema diagram, reporting workflow, aggregate function flowchart and internship roadmap: see [visuals.md](visuals.md).
