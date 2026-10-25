@@ -1,0 +1,23 @@
+CustomerName,Region,OrdersPlaced,TotalSpent,LastOrderDate
+Priya Singh,South,3,95500,2026-10-06
+Rahul Sharma,North,4,78300,2026-10-12
+Karan Malhotra,North,1,66200,2026-09-27
+Pooja Reddy,South,2,35400,2026-10-02
+Rohit Verma,North,2,34500,2026-10-15
+Vikram Rao,South,3,31100,2026-10-18
+Sneha Iyer,South,1,19500,2026-08-09
+Meera Das,East,1,18000,2026-10-05
+Ananya Bose,East,1,13000,2026-10-09
+Anjali Nair,South,1,8500,2026-09-03
+Manish Tiwari,Central,1,8200,2026-09-18
+Neha Gupta,North,1,7500,2026-07-25
+Arjun Mehta,West,2,7100,2026-10-10
+Sanjay Patel,West,1,6500,2026-09-08
+Deepak Yadav,Central,1,5000,2026-10-03
+Kavita Joshi,West,1,3000,2026-08-21
+Divya Menon,South,1,2900,2026-09-22
+Suresh Pillai,South,1,2850,2026-10-07
+Ritu Agarwal,East,1,2550,2026-10-01
+Amit Kumar,East,1,2000,2026-07-19
+Stuti Goyal,North,0,0,
+Rina Kapoor,North,0,0,
