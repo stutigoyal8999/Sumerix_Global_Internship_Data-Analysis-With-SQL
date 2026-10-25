@@ -33,3 +33,5 @@ A connected relational database and a reusable set of reporting queries, ready f
 
 ## Visuals
 ER diagram, join types comparison, schema diagram, reporting workflow, aggregate function flowchart and internship roadmap: see [visuals.md](visuals.md).
+
+- `reports/`: executive reports for business questions
