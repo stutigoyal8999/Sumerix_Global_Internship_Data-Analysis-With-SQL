@@ -127,10 +127,3 @@ END AS CustomerCategory
 | TRUNCATE | Not supported, use DELETE |
 | Recursive CTE | Supported |
 
-## 8. Git Tracking
-
-```powershell
-git add .
-git commit -m "Add Task 3 documentation"
-git push
-```

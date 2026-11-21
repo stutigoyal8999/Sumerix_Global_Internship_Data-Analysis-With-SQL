@@ -64,6 +64,7 @@ Quick check after step 2: 52 orders and revenue of 893,700. After step 3: 7 view
 | `ranking.sql` | ROW_NUMBER, RANK, DENSE_RANK, NTILE, rankings by month, employee and region | 10 |
 | `case_statements.sql` | Customer tiers, order sizes, price bands, performance, stock and activity status | 10 |
 | `analytical_reports.sql` | KPIs, top 10 percent, growth, top and bottom N, segmentation, lifetime value, ABC classification | 15 |
+| `professional_reports.sql` | Professional reports: customer segmentation, revenue ranking, product ranking, monthly growth, regional performance | 5 |
 
 ## Views
 

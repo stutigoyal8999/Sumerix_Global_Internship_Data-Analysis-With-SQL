@@ -28,6 +28,7 @@ For Task 3, `database/history_data.sql` adds 22 orders (orders 31 to 52, July to
 6. **Ranking and CASE:** rank entities and convert numbers into business labels.
 7. **Analytical reports:** combine all techniques into 15 reporting queries.
 8. **Reports and documentation:** write an executive report for each query file and document the work.
+9. **Professional reporting:** five executive reports (segmentation, revenue ranking, product ranking, monthly growth, regional performance) in `professional_reports.sql`.
 
 ## 4. Deliverables
 
@@ -101,11 +102,3 @@ Subqueries, CTEs (including recursive), views, window functions, ranking functio
 ## 11. Next Task
 
 Task 4 covers database design, normalization, indexing, query optimization, stored procedures, triggers and transactions.
-
-## 12. Git Tracking
-
-```powershell
-git add .
-git commit -m "Add Task 3 documentation and visuals"
-git push
-```
