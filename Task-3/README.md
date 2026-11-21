@@ -15,7 +15,7 @@ The database now holds 52 orders (July 2025 to October 2026) and total revenue o
 ```text
 Task-3/
 ├── database/
-│   ├── (SQLite database file)
+│   ├── retail_store.db (SQLite database file)
 │   └── history_data.sql
 ├── queries/
 │   ├── subqueries.sql
@@ -24,7 +24,8 @@ Task-3/
 │   ├── window_functions.sql
 │   ├── ranking.sql
 │   ├── case_statements.sql
-│   └── analytical_reports.sql
+│   ├── analytical_reports.sql
+│   └── professional_reports.sql
 ├── reports/
 │   ├── subqueries_report.md
 │   ├── cte_queries_report.md
@@ -32,7 +33,8 @@ Task-3/
 │   ├── window_functions_report.md
 │   ├── ranking_report.md
 │   ├── case_statements_report.md
-│   └── customer_intelligence_report.md
+│   ├── customer_intelligence_report.md
+│   └── professional_report.md
 ├── screenshots/
 ├── docs/
 │   ├── advanced_sql_notes.md
